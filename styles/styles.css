@@ -90,7 +90,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 15px;
-    
+
 }
 
 .banner-image-container {
@@ -108,40 +108,41 @@ body {
     border-radius: 10px;
 }
 
-/* .text-container h1,
+.text-container h1,
 p,
 span {
     font-size: 25px;
-} */
+}
 
-.banner-heading{
-    background: linear-gradient(45deg, #e893cf, #9376e0 );
+.banner-heading {
+    background: linear-gradient(45deg, #e893cf, #9376e0);
     background-clip: text;
     color: transparent;
     font-size: 3.75rem;
 }
 
-.collection{
+.collection {
     font-family: "Kaushan Script", cursive;
     font-size: 2.50rem;
 }
 
-.fa-brands{
+.fa-brands {
     font-size: 2.50rem
 }
 
-.icons{
+.icons {
     display: flex;
     gap: 15px;
 }
 
-.common-button{
+.common-button {
     padding: 10px 20px;
     border: 2px solid #e893cf;
     border-radius: 5px;
+    margin-top: 10px;
 }
 
-.discount{
+.discount {
     width: 90px;
     height: 90px;
     background-color: rgb(128, 128, 16);
@@ -156,18 +157,20 @@ span {
 }
 
 /* products styles starts here */
-.section-title{
+.section-title {
     text-align: center;
     margin-top: 30px;
     font-size: 2rem;
+    padding: 60px 0;
+
 }
 
-.products-section{
+.products-section {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.grid-container{
+.grid-container {
     /* min-height: 400px; */
     /* border: 2px solid tomato; */
     display: grid;
@@ -175,7 +178,7 @@ span {
     gap: 15px;
 }
 
-.single-products{
+.single-products {
     /* width: 30%; */
     /* border: 2px solid blue; */
     padding: 15px;
@@ -183,21 +186,80 @@ span {
     border-radius: 5px;
 }
 
-.single-products img{
+.single-products img {
     width: 70%;
     display: block;
     margin: 0 auto;
 }
 
-.heading-icons{
+.heading-icons {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.icon{
+.icon {
     background-color: #e893cf;
     font-size: 20px;
     border-radius: 50%;
     padding: 10px;
+    
 }
+
+/* gallery styles */
+.gallery-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+    /* border: 2px solid blue; */
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+
+.single-gallery {
+    flex-basis: 365px;
+    /* border: 2px solid tomato; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 20px;
+}
+
+.single-gallery img {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer styles */
+.footer{
+    background-color: darksalmon;
+    margin-top: 30px;
+}
+
+.footer-section{
+    max-width: 1200px;
+    min-height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.footer-section h2{
+    font-size: 2rem;
+}
+
+.footer-section p{
+    font-size: 1.50rem;
+}
+
+.footer-icon{
+    text-align: center;
+    margin-top: 20px;
+}
+
